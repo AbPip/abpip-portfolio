@@ -45,6 +45,19 @@ a:hover{
     text-align: center;
 }
 
+.content {
+    background-color: var(--main-background-color);
+   text-align: left;
+}
+
+.content h1 {
+    font-family: var(--heading-font);
+    font-size: 64px;
+    color: var(--heading-color);
+    padding: 15% 0px;
+    text-align: center;
+}
+
 .hero h1 {
 font-size: 96px;
 font-family: var(--heading-font);
@@ -72,4 +85,14 @@ font-family: var(--heading-font);
     background-color: var(--main-background-color);
     color: var(--body-text-color);
     padding: 10px 20px;
+}
+
+img {
+    border: 1px, solid,#606676;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+p {
+    color: var(--body-text-color);
 }
